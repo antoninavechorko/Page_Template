@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/script/index.js",
+  "homepage": "https://antoninavechorko.github.io/Page_Template/",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "dev": "cross-env NODE_ENV=production webpack --mode development",
-    "start": "cross-env NODE_ENV=production webpack serve --mode development --open"
+    "start": "cross-env NODE_ENV=production webpack serve --mode development --open",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +28,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "clean-webpack-plugin": "^4.0.0"
+    "clean-webpack-plugin": "^4.0.0",
+    "gh-pages": "^6.1.0"
   }
 }
