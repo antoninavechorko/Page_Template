@@ -1,3 +1,5 @@
+# Page_Template
+
 <b>Link to project</b>: https://antoninavechorko.github.io/Page_Template/
 <br/>
 <b>Stack</b>: JS, SCSS
