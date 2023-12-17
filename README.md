@@ -1,2 +1,3 @@
-Link to project
-Stack
+<b>Link to project</b>:
+<br/>
+<b>Stack</b>: JS, SCSS
